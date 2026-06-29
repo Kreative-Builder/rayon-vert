@@ -29,7 +29,7 @@ const fadeIn = {
 
 // ─── asset map ───────────────────────────────────────────────────────────────
 
-const A = (name: string) => `/assets/${name}`
+const A = (name: string) => `${import.meta.env.BASE_URL}assets/${name}`
 
 // ─── data ────────────────────────────────────────────────────────────────────
 
